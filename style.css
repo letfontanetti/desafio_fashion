@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fundo.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .logo {
+    width: 479px;
+    position: absolute;
+    top: -66px;
+    left: calc(50% - 240px);
+  }
+  
+  #game {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #blusa_blusa_branca{ 
+    width: 300px;
+    height: 500px;
+    margin-right: 20px;
+  }
+  
+  #boneca {
+    width: 300px;
+    height: 500px;
+    margin-right: 20px;
+    background-image: url(img/boneca_final.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 25px;
+  }
+  
+  #boneca img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+  }
+
+  #boneca .blusa_blusa_branca{
+    position: absolute;
+    top: 91px;
+    left: 96px;
+    width: 33%;
+  }
+
+  #boneca .blusa_blusa_preta{
+    position: absolute;
+    top: 91px;
+    left: 96px;
+    width: 33%;
+  }
+
+  #boneca .blusa_blusa_rosa{
+    position: absolute;
+    top: 91px;
+    left: 96px;
+    width: 33%;
+  }
+
+  #boneca .saia_saia_rodada{
+    position: absolute;
+    top: 131px;
+    left: 55px;
+    width: 60%;
+  }
+
+  #boneca .saia_saia_lapis{
+    position: absolute;
+    top: 172px;
+    left: 55px;
+    width: 60%;
+  }
+
+  #boneca .saia_saia_jeans{
+    position: absolute;
+    top: 135px;
+    left: 66px;
+    width: 52%;
+  }
+
+  #boneca .calca_calca_jeans {
+    position: absolute;
+    top: 194px;
+    left: 37px;
+    width: 73%;
+    height: 268px;
+}
+
+  #boneca .calca_calca_social{
+    position: absolute;
+    top: 194px;
+    left: 26px;
+    width: 76%;
+    height: 253px;
+  }
+
+  #boneca .calca_calca_legging{
+    position: absolute;
+    top: 195px;
+    left: 90px;
+    width: 33%;
+  }
+
+  #boneca .short_short_jeans{
+    position: absolute;
+    top: 171px;
+    left: 97px;
+    width: 32%;
+  }
+
+  #boneca .short_short_estampado{
+    position: absolute;
+    top: 171px;
+    left: 91px;
+    width: 35%;
+  }
+
+  #boneca .short_short_couro{
+    position: absolute;
+    top: 153px;
+    left: 91px;
+    width: 37%;
+    transform: rotate(8deg);
+  }
+
+  #boneca .vestido_vestido_longo {
+    position: absolute;
+    top: 86px;
+    left: 29px;
+    width: 78%;
+}
+
+  #boneca .vestido_vestido_curto{
+    position: absolute;
+    top: 55px;
+    left: 39px;
+    width: 69%;
+  }
+
+  #boneca .vestido_vestido_estampado{
+    position: absolute;
+    top: 76px;
+    left: 77px;
+    width: 47%;
+  }
+  
+  #selecoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selecao {
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-bottom:10px;
+  }
+  select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffc107;
+  }
